@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f6f8;
+color: #222;
+}
+
+header {
+text-align: center;
+padding: 30px 15px;
+background: #111827;
+color: white;
+}
+
+header h1 {
+margin: 0 0 8px;
+}
+
+header p {
+margin: 0;
+}
+
+main {
+width: min(1000px, 92%);
+margin: 25px auto;
+}
+
+section {
+background: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 12px;
+box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+}
+
+.search-box {
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+
+input,
+select,
+button {
+padding: 10px;
+font-size: 15px;
+border-radius: 7px;
+border: 1px solid #ccc;
+}
+
+input,
+select {
+flex: 1;
+min-width: 180px;
+}
+
+button {
+cursor: pointer;
+background: #111827;
+color: white;
+border: none;
+}
+
+button:hover {
+opacity: 0.85;
+}
+
+#searchResults {
+display: flex;
+gap: 8px;
+flex-wrap: wrap;
+margin-top: 15px;
+}
+
+.coin-card {
+padding: 18px;
+margin: 12px 0;
+border: 1px solid #ddd;
+border-radius: 10px;
+}
+
+.coin-card h3 {
+margin-top: 0;
+}
+
+.coin-card button {
+margin-right: 8px;
+margin-top: 8px;
+}
+
+.price {
+font-size: 20px;
+font-weight: bold;
+}
+
+.change {
+font-weight: bold;
+}
+
+#coinDetails {
+min-height: 20px;
+}
+
+#statusMsg,
+#alertMsg,
+#addCoinMsg {
+margin-top: 12px;
+}
