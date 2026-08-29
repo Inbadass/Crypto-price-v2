@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Crypto Tracker</h1>
+    <p>Track cryptocurrency prices and set price alerts.</p>
+</header>
+<main>
+    <section class="add-section">
+        <h2>Add Cryptocurrency</h2>
+        <div class="search-box">
+            <input
+                type="text"
+                id="addCoinInput"
+                placeholder="Search for a cryptocurrency"
+            >
+            <button id="addCoinButton">
+              Search
+            </button>
+        </div>
+        <div id="searchResults"></div>
+        <p id="addCoinMsg"></p>
+    </section>
+    <section class="search-section">
+        <h2>Search Tracked Coins</h2>
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search your tracked coins"
+            >
+            <button id="searchButton">
+              Search
+            </button>
+        </div>
+    </section>
+    <section class="alert-section">
+        <h2>Price Alert</h2>
+        <label for="alertCoin">
+            Coin
+        </label>
+        <select id="alertCoin">
+            <option value="">
+                Select a tracked coin
+            </option>
+        </select>
+        <input
+            type="number"
+            id="upper"
+            placeholder="Upper Target"
+            step="any"
+        >
+        <input
+            type="number"
+            id="lower"
+            placeholder="Lower Target"
+            step="any"
+        >
+        <button id="setAlert">
+            Set Alert
+        </button>
+        <p id="statusMsg"></p>
+        <p id="alertMsg"></p>
+    </section>
+    <section id="coinDetails"></section>
+    <section class="coins-section">
+        <h2>Tracked Cryptocurrencies</h2>
+        <p id="lastUpdated">
+            Last Updated: --:--:--
+        </p>
+        <div id="coinList"></div>
+    </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+        <input
+            type="number"
+            id="upper"
+            placeholder="Upper Target"
+            step="any"
+        >
+
+        <input
+            type="number"
+            id="lower"
+            placeholder="Lower Target"
+            step="any"
+        >
+
+        <button id="setAlert">
+            Set Alert
+        </button>
+
+        <p id="statusMsg"></p>
+        <p id="alertMsg"></p>
+
+    </section>
+
+    <section id="coinDetails"></section>
+
+  
+    <section class="coins-section">
+
+        <h2>Tracked Cryptocurrencies</h2>
+
+        <p id="lastUpdated">
+            Last Updated: --:--:--
+        </p>
+
+        <div id="coinList"></div>
+
+    </section>
+
+</main>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
